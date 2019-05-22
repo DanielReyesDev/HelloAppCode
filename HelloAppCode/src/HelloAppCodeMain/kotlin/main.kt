@@ -6,11 +6,11 @@
 //  Copyright © 2019 Daniel Reyes Sánchez. All rights reserved.
 //
 
-import kotlinx.cinterop.*
-import platform.Foundation.*
+fun main() {
+    println("Hello, AppCode!")
 
-fun main(args: Array<String>) {
-    autoreleasepool {
-        NSLog("Hello, World!")
+    val numbers = listOf(1,2,3)
+    numbers.forEach {
+        print(it)
     }
 }
