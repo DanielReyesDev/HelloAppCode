@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		C84F85961499AB55177B13C4 /* HelloAppCode.kexe */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloAppCode.kexe; sourceTree = BUILT_PRODUCTS_DIR; };
+		C84F86893EFDD16CBE60C458 /* gradle-wrapper.jar */ = {isa = PBXFileReference; lastKnownFileType = archive.jar; path = "gradle-wrapper.jar"; sourceTree = "<group>"; };
+		C84F876C5F18429081532198 /* settings.gradle */ = {isa = PBXFileReference; lastKnownFileType = file.gradle; path = settings.gradle; sourceTree = "<group>"; };
+		C84F876F0D47D8F70EAFE245 /* main.kt */ = {isa = PBXFileReference; lastKnownFileType = file.kt; path = main.kt; sourceTree = "<group>"; };
+		C84F884F0926422184C6D6C8 /* build.gradle.kts */ = {isa = PBXFileReference; lastKnownFileType = file.kts; path = build.gradle.kts; sourceTree = "<group>"; };
+		C84F89062107DDBA44968C4F /* build.gradle */ = {isa = PBXFileReference; lastKnownFileType = file.gradle; path = build.gradle; sourceTree = "<group>"; };
+		C84F890C724987DEF10785DF /* gradlew */ = {isa = PBXFileReference; lastKnownFileType = text; path = gradlew; sourceTree = "<group>"; };
+		C84F89ADE9AE6AE28304AFAC /* gradle-wrapper.properties */ = {isa = PBXFileReference; lastKnownFileType = file.properties; path = "gradle-wrapper.properties"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		C84F80B32265CA3EF1801891 /* gradle */ = {
+			isa = PBXGroup;
+			children = (
+				C84F8D3AD13573D67B908DE2 /* wrapper */,
+			);
+			path = gradle;
+			sourceTree = "<group>";
+		};
+		C84F841A1B1B40558B5132F7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C84F85961499AB55177B13C4 /* HelloAppCode.kexe */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C84F8472429FECB4C60C7CE7 /* HelloAppCode */ = {
+			isa = PBXGroup;
+			children = (
+				C84F8C4C0AFBDF81737928D1 /* Supporting Files */,
+				C84F867E135606D57AD3B4BF /* src */,
+			);
+			path = HelloAppCode;
+			sourceTree = "<group>";
+		};
+		C84F861BB320CC23FDAC53C0 /* kotlin */ = {
+			isa = PBXGroup;
+			children = (
+				C84F876F0D47D8F70EAFE245 /* main.kt */,
+			);
+			path = kotlin;
+			sourceTree = "<group>";
+		};
+		C84F867E135606D57AD3B4BF /* src */ = {
+			isa = PBXGroup;
+			children = (
+				C84F8C0E82343BACB8A4FB8C /* HelloAppCodeMain */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		C84F8974554B4D52BEB74BF0 = {
+			isa = PBXGroup;
+			children = (
+				C84F841A1B1B40558B5132F7 /* Products */,
+				C84F8472429FECB4C60C7CE7 /* HelloAppCode */,
+				C84F8BE801662EEA8139E2E0 /* Supporting Files */,
+			);
+			sourceTree = "<group>";
+		};
+		C84F8BE801662EEA8139E2E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C84F89062107DDBA44968C4F /* build.gradle */,
+				C84F890C724987DEF10785DF /* gradlew */,
+				C84F80B32265CA3EF1801891 /* gradle */,
+				C84F876C5F18429081532198 /* settings.gradle */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C84F8C0E82343BACB8A4FB8C /* HelloAppCodeMain */ = {
+			isa = PBXGroup;
+			children = (
+				C84F861BB320CC23FDAC53C0 /* kotlin */,
+			);
+			path = HelloAppCodeMain;
+			sourceTree = "<group>";
+		};
+		C84F8C4C0AFBDF81737928D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C84F884F0926422184C6D6C8 /* build.gradle.kts */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C84F8D3AD13573D67B908DE2 /* wrapper */ = {
+			isa = PBXGroup;
+			children = (
+				C84F89ADE9AE6AE28304AFAC /* gradle-wrapper.properties */,
+				C84F86893EFDD16CBE60C458 /* gradle-wrapper.jar */,
+			);
+			path = wrapper;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C84F8A99C50434223FFFD47A /* HelloAppCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C84F8398611DF6FB95C5335C /* Build configuration list for PBXNativeTarget "HelloAppCode" */;
+			buildPhases = (
+				C84F8656FE9F369C9F018CA1 /* Compile Kotlin/Native */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloAppCode;
+			productName = HelloAppCode;
+			productReference = C84F85961499AB55177B13C4 /* HelloAppCode.kexe */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C84F892ECC670502896D0348 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Daniel Reyes Sánchez";
+			};
+			buildConfigurationList = C84F894C290D7601919934ED /* Build configuration list for PBXProject "HelloAppCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C84F8974554B4D52BEB74BF0;
+			productRefGroup = C84F841A1B1B40558B5132F7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C84F8A99C50434223FFFD47A /* HelloAppCode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C84F8656FE9F369C9F018CA1 /* Compile Kotlin/Native */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Compile Kotlin/Native";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [ -z \"$KOTLIN_NATIVE_BUILD_CAPABLE\" ]; then\ncd \"$SRCROOT/Supporting Files\"\nsh -c \". gradlew buildForXcode\"\nfi\n            ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C84F80158E46933CA84FD7EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C84F815D865A3E2C020DC48B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C84F8293A1BC8DFED6709F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME).kexe";
+			};
+			name = Debug;
+		};
+		C84F87170BF9692965A69074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME).kexe";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C84F8398611DF6FB95C5335C /* Build configuration list for PBXNativeTarget "HelloAppCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C84F8293A1BC8DFED6709F7B /* Debug */,
+				C84F87170BF9692965A69074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C84F894C290D7601919934ED /* Build configuration list for PBXProject "HelloAppCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C84F815D865A3E2C020DC48B /* Debug */,
+				C84F80158E46933CA84FD7EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C84F892ECC670502896D0348 /* Project object */;
+}
